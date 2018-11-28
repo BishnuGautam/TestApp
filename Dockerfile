@@ -3,6 +3,7 @@ ENV PORT 8080
 ENV CLASSPATH /opt/lib
 EXPOSE 8080
 
+# Adding comment just for runnign pipelineA
 # copy pom.xml and wildcards to avoid this command failing if there's no target/lib directory
 COPY pom.xml target/lib* /opt/lib/
 
